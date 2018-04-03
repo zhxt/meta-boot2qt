@@ -289,4 +289,6 @@ LICENSE_FLAGS_WHITELIST = "commercial"
 
 QT_SDK_PATH = ""
 
+IMAGE_INSTALL_append = " docker"
+
 include conf/distro/include/${MACHINE}.pre.inc
