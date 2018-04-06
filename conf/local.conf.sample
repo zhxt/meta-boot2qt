@@ -291,4 +291,6 @@ QT_SDK_PATH = ""
 
 IMAGE_INSTALL_append = " docker"
 
+KERNEL_ROOTSPEC = "root=/dev/mmcblk1p1 rw rootwait"
+
 include conf/distro/include/${MACHINE}.pre.inc
